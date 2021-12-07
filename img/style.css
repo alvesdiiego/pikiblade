@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(244, 5, 44);
+}
+.header {
+    
+    
+}
+/*h1{
+    justify-content: center;
+    align-self: center;
+    font-size: 8rem;
+    
+}*/
+.card-img{
+    height: 25rem;
+    width: 85.4rem;
+    margin: 3rem 0 0;
+    background-image: url('./img/img1.2.jpeg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -80px;
+    
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

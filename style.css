@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Smooch&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(244, 5, 44);
+    font-family: Smooch;
+    color: rgb(244, 5, 44);
+}
+.header {
+display: flex;
+position: relative;
+   
+    
+}
+
+.h1header{
+    
+    font-size: 3.5rem;
+    color:rgb(244, 5, 44);
+    z-index: 1;
+    margin-left: 5px;
+    padding: 0px;
+    position: relative;
+    
+
+    
+    
+}
+.img{
+    
+    z-index: -1;
+    position:absolute;
+
+   
+     
+}
+.card-img{
+    height: 25rem;
+    width: 84.4rem;
+    background-image: url('./img/img1.2.jpeg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+    
+    
+    
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.icones{
+    width: 25px ;
+    height: 25px;
+    margin: 90px 5px;
+    padding: 10px;
+}
+section {
+    display: flex;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    
+   
+    
+}
+section a{
+    
+    text-decoration: none;
+}
+.contato{
+    color: #0B1015;
+    font-family: Open;
+    justify-content: center;
+    margin: 50px;
+}
+
+footer{
+    display: flex;
+    background-color: #0B1015;
+    width: 84.4rem;
+    height: 22px;
+    justify-content: center;
+    align-self: center;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    
+}
+
+@media  ( min-width:300px)  and (max-width:800px) {
+ 
+    .header{
+    display:flex;
+    width:100%;
+
+     
+    }
+    .card-img{
+     width:100%;
+     
+    
+       
+       
+    }
+    .img{
+        width:100%;
+        justify-content:stretch;
+      
+    }
+    
+     
+  .h1header{
+      font-size:90%;
+  }
+   section {
+       justify-content: center;
+       align-items: center;
+       margin-top:90%;
+       padding:0;
+      
+      
+       
+   }
+   .icones{
+       
+       width:50%;
+       
+ 
+       
+   }
+   .video{
+       display: flex;
+     
+       align-items: center;
+       justify-content: center;
+       
+       
+   }
+   iframe {
+     width: 98%;
+     
+   }
+   .contato{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   footer{
+       
+       margin: 0px;
+       padding: 0px;
+       width: 100%;
+       
+   }
+ }
