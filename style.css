@@ -127,7 +127,7 @@ footer{
     
 }
 
-@media  ( min-width:200px)  and (max-width:1024px) {
+@media  ( min-width:200px)  and (max-width:650px) {
   body{
       display: flex;
       flex-wrap: wrap;
@@ -147,14 +147,14 @@ footer{
     .header{
     display:flex;
     width:100%;
-    height: 15rem;
+    height: 10rem;
 
 
      
     }
     .card-img{
      width:100%;
-     height: 15rem;
+     height: 10rem;
      
     
        
@@ -184,6 +184,7 @@ footer{
       display: flex;
       align-items: center;
       justify-content: space-evenly;
+      width: 98%;
 
   }
    section {
@@ -194,6 +195,7 @@ footer{
       
        
    }
+   
    .icones{
        
        width: 100%;
@@ -217,7 +219,8 @@ footer{
        display: flex;
        flex-direction: column;
        justify-content: center;
-       align-items: center;
+       align-items: flex-start;
+       text-decoration: none;
    }
    footer{
        
@@ -227,3 +230,104 @@ footer{
        
    }
  }
+ @media  ( min-width:650px)  and (max-width:1024px) {
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+  
+        
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+      
+      .header{
+      display:flex;
+      width:100%;
+      height: 19rem;
+  
+  
+       
+      }
+      .card-img{
+       width:100%;
+       height: 19rem;
+       
+      
+         
+         
+      }
+      .img{
+          width:100%;
+          
+        
+      }
+      
+       
+    .h1header{
+        font-size:90%;
+    }
+    .conteudo {
+      display: flex;
+      flex-direction: column;  
+      align-items: center;
+      margin: 0px 0px;
+      padding: 0px 0px;
+      width: 100%;
+      
+  }   
+  
+    .box-icone {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+  
+    }
+     section {
+         justify-content: center;
+         align-items: center;
+        
+        
+        
+         
+     }
+     .icones{
+         
+         width: 100%;
+         
+   
+         
+     }
+     .video{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         
+         
+         
+     }
+     iframe {
+        width: 98%;
+       
+     }
+     .contato{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: flex-start;
+         text-decoration: none;
+     }
+     footer{
+         
+         margin: 0px 0px;
+         height: 2rem;
+         width: 100%;
+         
+     }
+   }
