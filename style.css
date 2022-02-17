@@ -5,15 +5,31 @@
 
 
 body {
-    margin: 0px;
-    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
     background-color:rgb(244, 5, 44);
     font-family: Smooch;
     color: rgb(244, 5, 44);
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px 0px;
+
 }
 .header {
 display: flex;
 position: relative;
+
+width: 100%;
+height: 36rem;
+margin: 0px 0px;
    
     
 }
@@ -33,15 +49,17 @@ position: relative;
 }
 .img{
     
+    
     z-index: -1;
     position:absolute;
-
+    width: 100%;
+    
    
      
 }
 .card-img{
-    height: 25rem;
-    width: 84.4rem;
+    width: 100%;
+    height: 36rem;
     background-image: url('./img/img1.2.jpeg'); 
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,56 +74,87 @@ position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    width: 100%;
+    height: 25rem;
+    
 }
 
-.icones{
-    width: 25px ;
-    height: 25px;
-    margin: 90px 5px;
-    padding: 10px;
-}
-section {
+.box-icone{
     display: flex;
-    padding: 0px 0px;
-    margin: 0px 0px;
     
+    width: 100%;
+    height: 7rem;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 0px;
+    padding: 0px 0px;
    
     
 }
-section a{
+.icone{
+    display: flex;    
     
-    text-decoration: none;
 }
+.icones{
+    
+    width: 2rem;
+    height: 2rem;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    
+}
+
 .contato{
-    color: #0B1015;
+    color: #ffffff;
     font-family: Open;
     justify-content: center;
-    margin: 50px;
+    margin: 0rem 2rem;
+    letter-spacing: 0.4rem;
+    font-size: 1rem;
+
+    
 }
 
 footer{
     display: flex;
     background-color: #0B1015;
-    width: 84.4rem;
-    height: 22px;
+    width: 100%;
+    
     justify-content: center;
     align-self: center;
-    margin-top: 2px;
-    margin-bottom: 0px;
+    margin: 0px 0px;
+    
     
 }
 
-@media  ( min-width:300px)  and (max-width:800px) {
- 
+@media  ( min-width:200px)  and (max-width:1024px) {
+  body{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+
+      
+  }
+  
+  .container{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 0px 0px;
+      padding: 0px 0px;
+  }
+    
     .header{
     display:flex;
     width:100%;
+    height: 15rem;
+
 
      
     }
     .card-img{
      width:100%;
+     height: 15rem;
      
     
        
@@ -113,7 +162,7 @@ footer{
     }
     .img{
         width:100%;
-        justify-content:stretch;
+        
       
     }
     
@@ -121,32 +170,47 @@ footer{
   .h1header{
       font-size:90%;
   }
+  .conteudo {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    width: 100%;
+    
+}   
+
+  .box-icone {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+  }
    section {
        justify-content: center;
        align-items: center;
-       margin-top:90%;
-       padding:0;
+      
       
       
        
    }
    .icones{
        
-       width:50%;
+       width: 100%;
        
  
        
    }
    .video{
        display: flex;
-     
        align-items: center;
        justify-content: center;
        
        
+       
    }
    iframe {
-     width: 98%;
+      width: 98%;
      
    }
    .contato{
@@ -157,8 +221,8 @@ footer{
    }
    footer{
        
-       margin: 0px;
-       padding: 0px;
+       margin: 0px 0px;
+       height: 2rem;
        width: 100%;
        
    }
